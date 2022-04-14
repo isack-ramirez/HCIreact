@@ -26,8 +26,31 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 5px;
+    right: 5px;
     height: fit-content;
     margin: auto;
+}
+
+.subheader {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    height: fit-content;
+    padding-top: 20vh;
+    margin: auto;
+    
+  
+   
+}
+@media only screen and (max-width: 600px) {
+    .subheader{
+        margin-top: 45vh;
+    }
+       
 }

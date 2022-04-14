@@ -9,7 +9,8 @@ const Picture = () => {
         <source  srcSet={background} />
         <img  src={background} alt="background" />
       </picture>
-      <h1 className={styles.header}>React Is Awesome</h1>
+      <h1 className={styles.header}>HCI General Contractors</h1>
+      <h3 className= {styles.subheader}>Let us worry about the construction for you</h3>
     </article>
   );
 };
