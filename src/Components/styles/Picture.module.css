@@ -30,6 +30,7 @@
     right: 5px;
     height: fit-content;
     margin: auto;
+    text-shadow: 0 0 45px black;
 }
 
 .subheader {
@@ -44,7 +45,7 @@
     height: fit-content;
     padding-top: 20vh;
     margin: auto;
-    
+    text-shadow: 0 0 45px black;
   
    
 }
