@@ -10,7 +10,7 @@ import {
 const Navigator = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark"fixed="top">
         <Container>
             <Navbar.Brand href='#home'>HCI</Navbar.Brand>
         </Container>
