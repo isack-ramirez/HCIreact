@@ -1,0 +1,51 @@
+.wrapper{
+    height: 30vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    place-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper2{
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    place-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.heading{
+    
+    margin: auto;
+    text-shadow: 0 0 40px rgb(163, 163, 163);
+}
+
+.card{
+    width:30vw;
+
+    text-align: center;
+    margin: auto;
+    display:flex;
+    box-shadow: 3px 3px 10px rgb(163, 163, 163);
+  
+   
+}
+@media only screen and (max-width: 500px) {
+
+        .wrapper2{
+            display: grid;
+
+        }
+        .card{
+            width: 80vw;
+            margin-top: 20px;
+        }
+       
+}
