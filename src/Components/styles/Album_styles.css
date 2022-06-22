@@ -1,0 +1,14 @@
+#album{
+    width: 99%;
+    margin: auto;
+    max-height: 80vh;
+    object-fit: fill;
+   
+  }
+
+  .carousel-inner{
+   max-height:80vh;
+  }
+  .carousel-item > img { 
+    max-height: 100vh;
+  }
