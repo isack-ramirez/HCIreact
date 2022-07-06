@@ -6,8 +6,11 @@
     background-size: cover;
     display: flex;
     place-items: center;
-    overflow: hidden;
-    position: relative;
+  
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .wrapper2{
@@ -22,9 +25,14 @@
     position: relative;
 }
 .heading{
-    
+    justify-content: center;
     margin: auto;
     text-shadow: 0 0 40px rgb(163, 163, 163);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(247, 247, 249);
 }
 
 .card{
